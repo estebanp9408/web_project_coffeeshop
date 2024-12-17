@@ -66,10 +66,10 @@
   max-width: 709px;
   font-family: "inter";
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 58px;
   line-height: 72px;
-  letter-spacing: -1;
+  letter-spacing: -1px;
   color: #000;
 }
 
