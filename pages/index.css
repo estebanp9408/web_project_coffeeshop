@@ -257,12 +257,14 @@
 .form__pseudo-item {
   display: inline-block;
   vertical-align: middle;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   border: 1px solid black;
   margin-right: 12px;
 }
 .form__checkbox:checked + .form__pseudo-item_type_checkbox {
   background-image: url("/images/check.svg");
   background-color: #2f80ed;
+  background-size: contain;
+  background-position: center;
 }
