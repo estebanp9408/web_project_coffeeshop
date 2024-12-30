@@ -106,7 +106,62 @@
             </div>
           </div>
         </section>
-        <section id="reservation" class="reservation"></section>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="form__name" class="form__label">Nombre *</label>
+              <input
+                class="form__item"
+                type="text"
+                placeholder="Nombre"
+                id="form__name"
+                required
+              />
+              <label for="form__pax" class="form__label"
+                >Número de comensales *</label
+              >
+              <input
+                class="form__item"
+                type="number"
+                placeholder="1-8"
+                id="form__pax"
+                required
+                min="1"
+                max="8"
+              />
+              <label for="form__date" class="form__label">Fecha y hora *</label>
+              <input
+                class="form__item form__item_el_date"
+                type="date"
+                id="form__date"
+                required
+              />
+              <label for="form__email" class="form__label"
+                >Tu correo electrónico *</label
+              >
+              <input
+                class="form__item"
+                type="email"
+                placeholder="email@email.com"
+                id="form__email"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <button class="form__button" type="submit">
+                Reservar una mesa
+              </button>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label form__checkbox_el_position">
+                <input class="form__checkbox" type="checkbox" required />
+                <span class="form__item_el_visible"></span>
+                <span>Acepto los términos de uso</span>
+              </label>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer id="footer" class="footer"></footer>
     </div>

@@ -159,3 +159,108 @@
   font-size: 20px;
   line-height: 30px;
 }
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("/images/background_reservation.svg");
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #000;
+  margin: 0%;
+}
+.reservation__title {
+  font-family: "Inter", "Arial", sans-serif;
+  line-height: 52px;
+  font-size: 44px;
+  font-weight: 500;
+  margin: 100px auto 80px auto;
+}
+.reservation__form {
+  margin: 0 auto 120px;
+}
+.form {
+  max-width: 385px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+  box-sizing: border-box;
+}
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.form__label {
+  font-family: "Inter", "Arial", sans-serif;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.form__item {
+  font-family: "Inter", "Arial", sans-serif;
+  line-height: 30px;
+  font-size: 20px;
+  border-radius: 4px;
+  width: 100%;
+  margin: 8px 0 32px;
+  height: 60px;
+}
+.form__item::placeholder {
+  padding-top: 15px;
+  padding-left: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form__button {
+  font-family: "Inter", "Arial", sans-serif;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 100%;
+  border-radius: 4px;
+  max-width: 385px;
+  height: 60px;
+  background-color: #2f80ed;
+  color: #fff;
+  width: 100%;
+}
+.form__button:hover {
+  opacity: 70%;
+}
+.form__checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+.form__checkbox_el_position {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+.form__item_el_date {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.form__item_el_visible {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+  margin-right: 12px;
+}
+.form__checkbox:checked + .form__item_el_visible {
+  background-image: url("/images/check.svg");
+  background-color: #2f80ed;
+}
