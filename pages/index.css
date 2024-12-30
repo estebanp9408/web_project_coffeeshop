@@ -177,7 +177,7 @@
   line-height: 52px;
   font-size: 44px;
   font-weight: 500;
-  margin: 100px auto 80px auto;
+  margin: 100px auto 80px;
 }
 .reservation__form {
   margin: 0 auto 120px;
@@ -200,6 +200,11 @@
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 8px;
+}
+.form__label_el_position {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
 }
 .form__item {
   font-family: "Inter", "Arial", sans-serif;
@@ -243,16 +248,12 @@
   width: 20px;
   margin-right: 12px;
 }
-.form__checkbox_el_position {
-  margin-top: 32px;
-  display: flex;
-  justify-content: center;
-}
+
 .form__item_el_date {
   padding-left: 20px;
   padding-top: 15px;
 }
-.form__item_el_visible {
+.form__pseudo-item {
   display: inline-block;
   vertical-align: middle;
   width: 16px;
@@ -260,7 +261,7 @@
   border: 1px solid black;
   margin-right: 12px;
 }
-.form__checkbox:checked + .form__item_el_visible {
+.form__checkbox:checked + .form__pseudo-item_type_checkbox {
   background-image: url("/images/check.svg");
   background-color: #2f80ed;
 }
