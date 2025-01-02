@@ -68,7 +68,7 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.last-line {
+.header__last-line{
   display: flex;
   justify-content: space-between;
 }
