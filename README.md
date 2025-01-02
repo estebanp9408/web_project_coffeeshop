@@ -1,10 +1,3 @@
-# Triple Espresso
+Triple Espresso
 
-Cafeteria tripleten por Esteban Prieto Melo
-
-se ursaron etiqueta meta asi como se,amtica en toda la pagina
-tambien se usaron tecnologias como iframe flex box y position para la ubicacion de los elemntos de la pagina
-se nombraron los bloques y sus elementos con la metodologia BEM
-se nombraron los archivos y se organizo el proyeccto mediante BEM
-se implemento un elemento form
-me gustaria poder generar la pagina mediante las barras de navegacion desplegables y barra de busqueda mediante ingreso de texto
+Cafetería Tripleten – Proyecto web desarrollado por Esteban Prieto Melo. Este proyecto consiste en una página web para la cafetería conceptual Triple Espresso, desarrollada utilizando etiquetas meta y elementos semánticos en HTML5, tecnologías como Flexbox y propiedades position en CSS3 para el diseño y ubicación de los elementos, así como iframe para la integración de contenido externo. Se implementó la metodología BEM (Block Element Modifier) para nombrar bloques, elementos y modificadores, asegurando escalabilidad y claridad en el código, además de organizar los archivos del proyecto según esta metodología. El proyecto incluye un formulario funcional y planea integrar barras de navegación desplegables y una barra de búsqueda dinámica para mejorar la interacción del usuario. Si deseas visualizar el proyecto, puedes clonar el repositorio y abrir el archivo index.html en tu navegador. Este proyecto está licenciado bajo la Licencia MIT y las contribuciones son bienvenidas siguiendo las prácticas recomendadas.
