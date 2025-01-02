@@ -33,8 +33,7 @@
   flex-direction: column;
   margin: 183px auto 0px 80px;
   max-width: 709px;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
+  font-family: "Inter", "Arial", sans-serif
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
@@ -46,9 +45,7 @@
   max-width: 683px;
   margin: 28px auto 0px 80px;
   font-family: "Noto-Serif", "Times New Roman", serif;
-  font-style: normal;
   font-size: 20px;
-  font-weight: normal;
   line-height: 30px;
 }
 .header__footer {
