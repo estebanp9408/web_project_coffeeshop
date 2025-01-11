@@ -44,6 +44,9 @@
 .footer__list-item {
   justify-content: flex-end;
 }
+.footer__list-item_margin {
+  margin-top: 16px;
+}
 .footer__social-icon {
   margin-right: 10px;
   width: 16px;
